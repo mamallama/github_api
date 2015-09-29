@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-sm-9">
+    <img src="https://octodex.github.com/images/octobiwan.jpg" class="img-thumbnail" width="140" height="140" alt="Responsive image">
+    <h1><p class="text-justify">Input Github User:</p></h1>
+
+<%= form_tag do %>
+  <div class="col-xs-4">
+    <input type="text" class="form-control" id="inputUser" placeholder="username">
+    <br>
+    <%= link_to search_search_path, class: 'btn btn-success' do %>
+    Submit
+    <% end %>
+  </div>
+  <br><p>
+</p>
+<% end %>
